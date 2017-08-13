@@ -127,8 +127,8 @@ section.success {
     font-size: 14px;
     padding: 11px;
     text-transform: uppercase;
-    color: white;
-    border-color: white; }
+    color: #a0b7dd;
+    border-color: #a0b7dd; }
     #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus {
       color: white;
       border-color: #a0b7dd;

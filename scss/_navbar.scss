@@ -37,8 +37,8 @@
         font-size: 14px;
         padding: 11px;
         text-transform: uppercase;
-        color: white;
-        border-color: white;
+        color: $theme-success;
+        border-color: $theme-success;
         &:hover,
         &:focus {
             color: white;
