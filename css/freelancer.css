@@ -50,6 +50,86 @@ hr.star-primary:after {
   padding: 0 .25em;
   content: '\f005'; }
 
+hr.about-primary {
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  border-color: #a0b7dd; }
+
+hr.about-primary:after {
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: '\f05a ';
+  color: #a0b7dd;
+  background-color: #ffffff; }
+
+hr.web-primary {
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  border-color: #ffffff; }
+
+hr.web-primary:after {
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: '\f108';
+  color: #ffffff;
+  background-color: #a0b7dd; }
+
+hr.graphic-light {
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  border-color: #a0b7dd; }
+
+hr.graphic-light:after {
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: '\f1fc';
+  color: #a0b7dd;
+  background-color: #ffffff; }
+
+hr.video-primary {
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  border-color: #ffffff; }
+
+hr.video-primary:after {
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: '\f008';
+  color: #ffffff;
+  background-color: #a0b7dd; }
+
 hr.star-light {
   border-color: white; }
 
@@ -58,10 +138,10 @@ hr.star-light:after {
   background-color: #a0b7dd; }
 
 hr.star-primary {
-  border-color: #ffffff; }
+  border-color: #a0b7dd; }
 
 hr.star-primary:after {
-  color: #ffffff;
+  color: #a0b7dd;
   background-color: white; }
 
 .img-centered {
@@ -186,16 +266,25 @@ header.masthead {
   header.masthead .intro-text .skills {
     font-size: 1.75em; } }
 
-#portfolio .portfolio-item {
+#about .theme-success {
+  color: #a0b7dd; }
+
+.portfolio .theme-success {
+  color: #a0b7dd; }
+
+.portfolio .theme-primary {
+  color: #ffffff; }
+
+.portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
-  #portfolio .portfolio-item .portfolio-link {
+  .portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer; }
-    #portfolio .portfolio-item .portfolio-link .caption {
+    .portfolio .portfolio-item .portfolio-link .caption {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -204,9 +293,9 @@ header.masthead {
       transition: all ease .5s;
       opacity: 0;
       background: rgba(160, 183, 221, 0.9); }
-      #portfolio .portfolio-item .portfolio-link .caption:hover {
+      .portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1; }
-      #portfolio .portfolio-item .portfolio-link .caption .caption-content {
+      .portfolio .portfolio-item .portfolio-link .caption .caption-content {
         font-size: 20px;
         position: absolute;
         top: 50%;
@@ -215,13 +304,13 @@ header.masthead {
         margin-top: -12px;
         text-align: center;
         color: white; }
-        #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+        .portfolio .portfolio-item .portfolio-link .caption .caption-content i {
           margin-top: -12px; }
-        #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-        #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+        .portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+        .portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
           margin: 0; }
 
-#portfolio * {
+.portfolio * {
   z-index: 2; }
 
 @media (min-width: 767px) {

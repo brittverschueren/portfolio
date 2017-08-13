@@ -52,6 +52,93 @@ hr.star-primary:after {
     padding: 0 .25em;
     content: '\f005';
 }
+hr.about-primary {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+    border-color: $theme-success;
+}
+
+hr.about-primary:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f05a ';
+    color: $theme-success;
+    background-color: $theme-primary;
+}
+
+hr.web-primary {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+    border-color: $theme-primary;
+}
+
+hr.web-primary:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f108';
+    color: $theme-primary;
+    background-color: $theme-success;
+}
+
+hr.graphic-light {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+    border-color: $theme-success;
+}
+
+hr.graphic-light:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f1fc';
+    color: $theme-success;
+    background-color: $theme-primary;
+}
+
+hr.video-primary {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+    border-color: $theme-primary;
+}
+
+hr.video-primary:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f008';
+    color: $theme-primary;
+    background-color: $theme-success;
+}
 
 hr.star-light {
     border-color: white;
@@ -63,11 +150,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: $theme-primary;
+    border-color: $theme-success;
 }
 
 hr.star-primary:after {
-    color: $theme-primary;
+    color: $theme-success;
     background-color: white;
 }
 
