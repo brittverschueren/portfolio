@@ -1,14 +1,15 @@
 // Styling for the portfolio section
-#about{
-    .theme-success{
-        color:$theme-success
+#about {
+    .theme-success {
+        color: $theme-success
     }
 }
+
 .portfolio {
-    .theme-success{
+    .theme-success {
         color: $theme-success;
     }
-    .theme-primary{
+    .theme-primary {
         color: $theme-primary;
     }
     .portfolio-item {
@@ -57,10 +58,21 @@
     }
 }
 
-@media(min-width:767px) {
+@media(max-width:767px) {
     #portfolio {
         .portfolio-item {
             margin: 0 0 30px;
+        }
+    }
+    .portfolio-modal {
+        .modal-dialog {
+            .modal-content {
+                .container {
+                    h2 {
+                        font-size: 1.5em;
+                    }
+                }
+            }
         }
     }
 }
@@ -88,11 +100,11 @@
             img {
                 margin-bottom: 30px;
             }
-            .container{
-                .row{
-                    .modal-body{
-                        ul{
-                            text-align:left;
+            .container {
+                .row {
+                    .modal-body {
+                        ul {
+                            text-align: left;
                         }
                     }
                 }

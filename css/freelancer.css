@@ -237,6 +237,10 @@ section.success {
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
+@media (max-width: 767px) {
+  .navbar .container .navbar-brand {
+    font-size: 1em; } }
+
 header.masthead {
   text-align: center;
   color: white;
@@ -313,9 +317,11 @@ header.masthead {
 .portfolio * {
   z-index: 2; }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; }
+  .portfolio-modal .modal-dialog .modal-content .container h2 {
+    font-size: 1.5em; } }
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;
