@@ -443,6 +443,18 @@ footer {
     padding: 25px 0;
     background-color: white; }
 
+.btn-blue {
+  font-size: 20px;
+  margin-top: 15px;
+  transition: all .3s ease-in-out;
+  color: #a0b7dd;
+  border: solid 2px #a0b7dd;
+  background: transparent; }
+  .btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active {
+    color: #a0b7dd;
+    border: solid 2px #ffffff;
+    background: #ffffff; }
+
 .btn-outline {
   font-size: 20px;
   margin-top: 15px;
