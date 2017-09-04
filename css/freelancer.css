@@ -452,7 +452,7 @@ footer {
   background: transparent; }
   .btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active {
     color: #a0b7dd;
-    border: solid 2px #ffffff;
+    border: solid 2px #a0b7dd;
     background: #ffffff; }
 
 .btn-outline {

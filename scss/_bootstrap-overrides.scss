@@ -11,7 +11,7 @@
     &:active,
     &.active {
         color: $theme-success;
-        border: solid 2px $theme-primary;
+        border: solid 2px $theme-success;
         background: $theme-primary;
     }
 }
